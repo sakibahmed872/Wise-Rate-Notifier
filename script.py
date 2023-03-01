@@ -26,7 +26,7 @@ def getRates():
         print(dict["source"], "to ", dict["target"], " Rate - ",  dict["value"])
 
         if (dict["source"] == "AUD" and dict["value"] >= float(args.rAUD)) or (dict["source"] == "USD" and dict["value"] >= float(args.rUSD)) :
-            os.system('notify-send "'+dict["source"]+' Rate High" "Current Rate is '+str(dict["value"])+' which is Higher than thresold rate"')
+            os.system('notify-send "'+dict["source"]+' Rate High" "Current Rate is '+str(dict["value"])+' which is Higher than threshold rate"')
 
     
     print("\n")

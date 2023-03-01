@@ -3,7 +3,7 @@
 ### This script will show the real exchange rate that are using by [Wise](https://www.wise.com)
 ---
 
-This script will also notifiy in the system when the rate is higher than the thresold rate. 
+This script will also notifiy in the system when the rate is higher than the threshold rate. 
 
 ## Requirment
 ---
@@ -19,14 +19,14 @@ Default thresold rate is -
 * AUD to BDT - 72.5
 * USD to BDT - 103
 
-Script will also take custom thresold rate for notification. 
+Script will also take custom threshold rate for notification. 
 
 ## How to set Custom thresold rate ?
 ---
 
 ```python3 script.py -rAUD 73 -rUSD 104```
 
-This script will run without any of the custom thresold rate. i.e
+This script will run without any of the custom threshold rate. i.e
 
 ```python3 script.py -rAUD 73```
 
